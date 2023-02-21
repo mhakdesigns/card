@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    /* box-sizing: border-box; */
+    margin: 0;
+}
+
+
+.header{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background: #fff;
+    box-shadow: 0 0 5px 0.5px rgba(0, 0, 0, 0.337);
+    color:#0D1558;
+    font-family: sans-serif;
+    justify-content: space-between;
+}
+
+.header h3{
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 20px 0 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 80px;
+        background: #fff;
+        box-shadow: 0px -3px 27px  rgb(0, 0, 0,60%);
+        font-family: sans-serif;
+       /* flex-direction: column; */
+       text-align: center;
+       position: relative;
+       z-index:1;
+    }
+    .header img{
+        width: 200px;
+        height: 50px;
+    }
+   .profile-head{
+    position: relative;
+    color:#0D1558;
+    border-bottom: 1px solid #0000001c;
+    /* background-color: #5cb6ce; */
+    background-color: #e1e1e1;
+    width: 100%;
+    height: 170px;
+    display: flex;
+    padding-top: 10px;
+   }
+   .profile-head img {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   }
+   .emp{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 32px;;
+    right: 10px;
+   }
+   .emp h6{
+    font-size: 1em;
+    padding: 10px 0 10px 0;
+   }
+   .emp h5{
+    padding: 10px 0 10px 0;
+    font-family: sans-serif;
+   }
+   .emp-details{
+    width: 100%;
+    margin-top: 10px;
+}
+.emp-details h3{
+    text-decoration: underline;
+    text-align: center; 
+    color:#0D1558;   
+    letter-spacing: 1px;
+   }
+   /* .emp-details > div{
+    background-color: #0D1558;
+    height: 50px;
+   } */
+   footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    color:white;
+    font-size:0.80em;
+    text-align: center;
+    padding-top: 15px;
+    flex: end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+   }
+  
+     
+    th,
+    td {
+        padding: 8px;
+        text-align: left;
+    }
+   
+}
